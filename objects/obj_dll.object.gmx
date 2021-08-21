@@ -26,6 +26,8 @@
           <argument>
             <kind>1</kind>
             <string>setWindowTitle("GM Launcher")
+
+show_debug_message("Are you seriously trying to debug the launcher? Stop being so creepy O.o")
 </string>
           </argument>
         </arguments>
@@ -57,7 +59,7 @@ if(path = "")
     showMessageboxOk("Cannot launch","No target executable defined.")
     setFlashingSelf(2,1000)
 }
-show_debug_message(path)
+
 slashpos = 0
 
 for(var i = string_length(path); i&gt;0; i--)
@@ -70,7 +72,7 @@ for(var i = string_length(path); i&gt;0; i--)
 }
 
 dpath = string_copy(path, 1, slashpos)
-show_debug_message(string(slashpos)+" | "+dpath)
+
 
 
 if(obj_box_nosound.checked)

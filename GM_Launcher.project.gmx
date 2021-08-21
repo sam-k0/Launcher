@@ -25,6 +25,7 @@
   <objects name="objects">
     <object>objects\obj_dll</object>
     <object>objects\obj_button_launch</object>
+    <object>objects\obj_button_quit</object>
     <object>objects\par_button</object>
     <object>objects\obj_button_getExe</object>
     <object>objects\par_checkbox</object>
