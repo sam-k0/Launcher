@@ -3,12 +3,39 @@
   <Configs name="configs">
     <Config>Configs\Default</Config>
   </Configs>
-  <NewExtensions/>
+  <datafiles number="2" name="datafiles"/>
+  <NewExtensions>
+    <extension index="0">extensions\launcherex</extension>
+  </NewExtensions>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
+  <sprites name="sprites">
+    <sprite>sprites\spr_button</sprite>
+    <sprite>sprites\spr_checkbox</sprite>
+  </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\scr_loadlib.gml</script>
+    <script>scripts\scr_freelib.gml</script>
+  </scripts>
   <shaders name="shaders"/>
+  <fonts name="fonts">
+    <font>fonts\fnt_gui</font>
+  </fonts>
+  <objects name="objects">
+    <object>objects\obj_dll</object>
+    <object>objects\obj_button_launch</object>
+    <object>objects\par_button</object>
+    <object>objects\obj_button_getExe</object>
+    <object>objects\par_checkbox</object>
+    <object>objects\obj_box_nosound</object>
+    <object>objects\obj_box_output</object>
+    <object>objects\obj_box_windowed</object>
+    <object>objects\obj_box_vanillagfx</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\rm_main</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
